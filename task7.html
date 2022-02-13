@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN</title>
+    <style>
+        .box {
+            background-color: rgb(243, 220, 193);
+            height: 600px;
+            width: 350px;
+            margin-left: 440px;
+            font-size: 20px;
+            align-content: 10px;
+            box-shadow: black;
+            border-radius: 5px;
+        }
+
+        #head {
+            padding-left: 100px;
+
+            height: 130px;
+            font-size: 45px;
+            font-family: cursive;
+            box-shadow: black;
+        }
+
+        body {
+            background-image: url("img1.jpg");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+            background-size: cover;
+            box-shadow: black;
+        }
+
+        .rem {
+            font-size: 15px;
+        }
+
+        p {
+            font-size: 12px;
+            padding-left: 17px;
+        }
+
+        .cont {
+            padding: 16px;
+        }
+
+        .p2{
+            padding-left: 128px;
+            font-size: 17px;
+        }
+        .p3{
+         padding-left:105px ;
+         padding-top: 10px;
+         font-size: 15px;
+        }
+        .a1{
+            padding-left:150px ;
+            font-size: 15px;
+        }
+    </style>
+    <script src="https://kit.fontawesome.com/13f8fb2909.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="box">
+        <div id="head"><br>LOGIN</div>
+        <br><br>
+        <div class="cont">
+            <i class="fas fa-envelope"></i>
+            <label for="mail"><b style="padding-left: 7px;">Email:</b></label><br>
+            <input type="email" name="mail" id="mail" placeholder="Enter username" style="height: 30px; width: 300px;">
+            <br>
+            <br>
+            <i class="fas fa-key"></i>
+            <label for="pass"><b>Password:</b></label><br>
+            <input type="password" name="pass" id="pass" placeholder="Enter Password"
+                style="height: 30px; width: 300px;"><br><br>
+        </div>
+        <div class="rem">
+            <label for="rem" style="padding-left: 17px;">Remember Me</label>
+            <input type="checkbox" name="rem" id="rem" checked>
+        </div>
+
+        <p>Forgot Password?<a href="#">Click Here</a></p>
+        <button type="submit"
+            style="width: 250px; height: 35px; margin-left: 45px; background-color: crimson; color: white; font-family: cursive; font-size: 18px;">Login</button>
+            <p class="p2">or Login with</p>
+            <i class="fab fa-facebook" style="margin-left: 20px;"></i>
+        <button type="submit" style="height: 30px; width:80px ; color: white; background-color: rgb(33, 79, 231);">Facebook</button>
+        <i class="fab fa-google-plus" style="margin-left: 70px;"></i>
+        <button type="submit" style="width: 85px ; height: 33px ; color: white; background-color: rgb(241, 74, 110);">Google</button>
+        <div class="p3">Don't have an account?</div>
+        <a href="#" class="a1">Sign Up</a>
+
+    </div>
+</body>
+
+</html>
